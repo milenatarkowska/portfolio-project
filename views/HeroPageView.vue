@@ -1,4 +1,8 @@
 <template>
-  <h1>Milena Tarkowska</h1>
+  <OpeningInfo />
 </template>
+
+<script setup>
+import OpeningInfo from '@/components/opening-info.vue'
+</script>
 
