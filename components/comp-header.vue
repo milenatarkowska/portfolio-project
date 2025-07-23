@@ -1,6 +1,11 @@
 <template>
   <div class="header">
-    <ColorModeSwitch />
+    <div class="navbar">
+      <NavBar />
+    </div>
+    <div class="switch">
+      <ColorModeSwitch />
+    </div>
   </div>
 </template>
 
@@ -15,4 +20,5 @@
 
 <script setup>
 import ColorModeSwitch from "./color-modes-switch.vue";
+import NavBar from "./comp-navbar.vue";
 </script>
