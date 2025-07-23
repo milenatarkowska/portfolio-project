@@ -24,4 +24,7 @@
 a:hover{
   text-decoration: underline;
 }
+p{
+  font-size: 0.8rem;
+}
 </style>
