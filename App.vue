@@ -2,7 +2,7 @@
   <div class="app">
     <Header />
     <main class="main">
-      <HeroPageView />
+      <router-view />
     </main>
     <Footer />
   </div>
@@ -11,7 +11,6 @@
 <script setup>
 import Header from './components/comp-header.vue'
 import Footer from './components/comp-footer.vue'
-import HeroPageView from '@/views/HeroPageView.vue'
 </script>
 
 <style scoped>

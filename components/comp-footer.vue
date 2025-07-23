@@ -21,9 +21,6 @@
   gap: 0.5rem;
 }
 
-a:hover{
-  text-decoration: underline;
-}
 p{
   font-size: 0.8rem;
 }
