@@ -14,7 +14,8 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  margin: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 </style>
 
