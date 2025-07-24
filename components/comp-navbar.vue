@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
-    <router-link to="/">Main Page</router-link>
-    <router-link to="about_me">About Me</router-link>
+    <router-link to="/">Home</router-link>
+    <router-link to="about_me">About</router-link>
 
     <!-- tu dodac kolejne karty -->
   </nav>
