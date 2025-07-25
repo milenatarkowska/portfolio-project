@@ -1,10 +1,27 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-html, body{
+html {
+  --text: #000000;
+  --background: #e4e2e4;
+  --primary: #bf1860;
+  --secondary: #881647;
+  --accent: #cd38ff;
+
+  background-color: var(--background);
+  color: var(--text);
+  transition: background-color 0.3s, color 0.3s;
   font-family: 'Kanit', sans-serif;
   margin: 0;
   padding: 0;
+}
+
+html.dark{
+  --text: #ffffff;
+  --background: #1d1b1d;
+  --primary: #e74089;
+  --secondary: #e977a8;
+  --accent: #9500c7;
 }
 h1{
   font-size: 64px;
