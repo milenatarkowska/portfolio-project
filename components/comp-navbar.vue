@@ -2,6 +2,7 @@
   <nav class="navbar">
     <router-link to="/">{{ t('home') }}</router-link>
     <router-link to="about_me">{{ t('about') }}</router-link>
+    <router-link to="CV">CV</router-link>
 
     <!-- tu dodac kolejne karty -->
   </nav>

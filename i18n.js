@@ -29,6 +29,9 @@ const messages = {
       'Cooperation with the Department Manager and Investor Supervision Inspectors \n' +
       'Handling invoice circulation \n' +
       'Maintaining the correspondence register.',
+    CVMessage: 'Download my CV',
+    CVpl: 'Polish',
+    CVeng: 'English',
   },
   pl: {
     name: 'Milena Tarkowska',
@@ -57,6 +60,9 @@ const messages = {
       'Organizacja spotkań i konferencji.\n' +
       'Współpraca z kierownictwem działu oraz inspektorami nadzoru inwestorskiego.\n' +
       'Obsługa obiegu faktur.',
+    CVMessage: 'Pobierz moje CV',
+    CVpl: 'Język polski',
+    CVeng: 'Język angielski',
   }
 }
 
