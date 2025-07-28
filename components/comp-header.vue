@@ -12,11 +12,13 @@
 
 <style scoped>
 .header {
+  position:sticky;
+  top: 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .settings {
   display: flex;
