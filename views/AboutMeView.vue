@@ -1,5 +1,10 @@
 <template>
   <div class="AboutMe">
-    <h1>TU BEDZIE JAKIES INFO O MNIE</h1>
+    <Info />
   </div>
+
 </template>
+
+<script setup>
+import Info from "@/components/about-me-info.vue"
+</script>
