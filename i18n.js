@@ -17,6 +17,9 @@ const messages = {
     aboutThirdSentence: 'I’m deeply committed to enhancing my practical skills and applying them in real-world projects. Alongside my academic studies, I proactively deepen my knowledge through online courses and independent learning.',
     aboutFourthSentence: 'With strong analytical skills, a problem-solving mindset, and a creative approach, I\'m eager to contribute to innovative projects and grow as a professional in the tech industry.',
     technologies: 'TECHNOLOGIES',
+    education: 'EDUCATION',
+    university: 'Polish - Japanese Academy of Information Technology',
+    degree: 'Bachelor of Engineering in Software Engineering'
   },
   pl: {
     name: 'Milena Tarkowska',
@@ -33,6 +36,9 @@ const messages = {
     aboutThirdSentence: 'Z dużym zaangażowaniem rozwijam swoje umiejętności praktyczne i wykorzystuję je w rzeczywistych projektach. Równolegle ze studiami systematycznie pogłębiam swoją wiedzę poprzez kursy online i samodzielną naukę.',
     aboutFourthSentence: 'Dzięki silnym umiejętnościom analitycznym, nastawieniu na rozwiązywanie problemów oraz kreatywnemu podejściu, z entuzjazmem chcę angażować się w innowacyjne projekty i rozwijać się jako specjalistka w branży IT.',
     technologies: 'TECHNOLOGIE',
+    education: 'EDUKACJA',
+    university: 'Polsko - Japońska Akademia Technik Komputerowych',
+    degree: 'Studia inżynierskie z Informatyki',
   }
 }
 
