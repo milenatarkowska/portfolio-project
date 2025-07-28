@@ -47,7 +47,7 @@ import { onMounted, ref } from 'vue'
 import TagCloud from 'tagcloud'
 
 const tagCloud = ref(null)
-const texts = ['Java', 'Python', 'JavaScript', 'C++', 'HTML', 'CSS', 'Linux', 'GitHub', 'Vue']
+const texts = ['Java', 'Python', 'JavaScript', 'C++', 'HTML', 'CSS', 'Linux', 'GitHub', 'Vue', 'Docker']
 
 onMounted(() => {
   TagCloud(tagCloud.value, texts, {

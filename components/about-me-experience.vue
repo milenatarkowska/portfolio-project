@@ -42,7 +42,7 @@ const { t } = useI18n()
 .left-info {
   flex: 1;
   text-align: left;
-
+  margin-left: 3rem;
 }
 
 .right-title {
