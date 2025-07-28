@@ -13,7 +13,7 @@
 <style scoped>
 .header {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   margin-left: 1rem;
   margin-right: 1rem;

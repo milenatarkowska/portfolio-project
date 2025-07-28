@@ -19,7 +19,16 @@ const messages = {
     technologies: 'TECHNOLOGIES',
     education: 'EDUCATION',
     university: 'Polish - Japanese Academy of Information Technology',
-    degree: 'Bachelor of Engineering in Software Engineering'
+    degree: 'Bachelor of Engineering in Software Engineering',
+    experience: 'EXPERIENCE',
+    mhp: 'Polish History Museum in Warsaw - Senior Clerk',
+    mhpTime: 'September 2023 - Present',
+    mhpDesc: 'Coordinating the implementation of Jira software within the Legal Department to support workflow management and task tracking. \n' +
+      'Office staff, handling incoming and outgoing correspondence, participation in the preparation of reports, statements, etc. \n' +
+      'Preparing meetings, conferences and development notes \n' +
+      'Cooperation with the Department Manager and Investor Supervision Inspectors \n' +
+      'Handling invoice circulation \n' +
+      'Maintaining the correspondence register.',
   },
   pl: {
     name: 'Milena Tarkowska',
@@ -39,6 +48,15 @@ const messages = {
     education: 'EDUKACJA',
     university: 'Polsko - Japońska Akademia Technik Komputerowych',
     degree: 'Studia inżynierskie z Informatyki',
+    experience: 'DOŚWIADCZENIE',
+    mhp: 'Muzeum Historii Polski w Warszawie - Starszy Referent',
+    mhpTime: 'Wrzesień 2023 - Obecnie',
+    mhpDesc: 'Koordynacja wdrożenia oprogramowania Jira w Dziale Prawnym (zarządzanie przepływem pracy i zadaniami).\n' +
+      'Obsługa korespondencji przychodzącej i wychodzącej, prowadzenie rejestru.\n' +
+      'Udział w przygotowywaniu raportów, zestawień i notatek.\n' +
+      'Organizacja spotkań i konferencji.\n' +
+      'Współpraca z kierownictwem działu oraz inspektorami nadzoru inwestorskiego.\n' +
+      'Obsługa obiegu faktur.',
   }
 }
 
