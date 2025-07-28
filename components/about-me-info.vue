@@ -37,7 +37,6 @@
   flex: 2;
   text-align: left;
   line-height: 1.7;
-  font-size: 1.1rem;
 }
 
 
