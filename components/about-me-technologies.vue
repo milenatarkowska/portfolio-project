@@ -18,6 +18,7 @@
   min-height: 80vh;
   padding: 3rem;
   gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .left-technologies {
@@ -35,6 +36,47 @@
   width: 400px;
   height: 400px;
 
+}
+
+@media (max-width: 768px) {
+  .technologies {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .right-title {
+    order: -1;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .left-technologies {
+    order: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tag-cloud {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    transform: translateX(0);
+  }
+
+  .tag-cloud > * {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 </style>
 

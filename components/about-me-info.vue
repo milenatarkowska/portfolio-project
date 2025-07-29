@@ -26,6 +26,7 @@
   min-height: 80vh;
   padding: 3rem;
   gap: 4rem;
+  flex-wrap: wrap;
 }
 
 .left-title {
@@ -39,7 +40,24 @@
   line-height: 1.7;
 }
 
+@media (max-width: 768px) {
+  .about-me {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 2rem;
+  }
 
+  .left-title {
+    order: -1;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .right-info {
+    order: 0;
+    text-align: center;
+  }
+}
 </style>
 
 <script setup>

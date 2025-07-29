@@ -29,6 +29,7 @@
   min-height: 90vh;
   padding: 3rem;
   gap: 4rem;
+  flex-wrap: wrap;
 }
 
 .left-title {
@@ -42,7 +43,24 @@
   line-height: 1.7;
 }
 
+@media (max-width: 768px) {
+  .education {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 2rem;
+  }
 
+  .left-title {
+    order: -1;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .right-education {
+    order: 0;
+    text-align: center;
+  }
+}
 </style>
 
 <script setup>

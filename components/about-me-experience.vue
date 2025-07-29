@@ -37,6 +37,7 @@ const { t } = useI18n()
   min-height: 80vh;
   padding: 3rem;
   gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .left-info {
@@ -50,5 +51,28 @@ const { t } = useI18n()
   text-align: center;
   line-height: 1.7;
   margin-left: 3rem;
+}
+
+@media (max-width: 768px) {
+  @media (max-width: 768px) {
+    .about-me-experience {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 2rem;
+    }
+
+    .right-title {
+      order: -1; /* Tytuł idzie na górę */
+      margin-left: 0;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .left-info {
+      order: 0;
+      margin-left: 0;
+      text-align: center;
+    }
+  }
 }
 </style>
