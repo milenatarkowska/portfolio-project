@@ -28,6 +28,6 @@ import Experience from "@/components/about-me-experience.vue"
 
 <style scoped>
 .AboutMe{
-  padding-top: 10vh;
+  padding-top: 10rem;
 }
 </style>
