@@ -30,8 +30,8 @@ const messages = {
       'Handling invoice circulation \n' +
       'Maintaining the correspondence register.',
     CVMessage: 'Download my CV',
-    CVpl: 'Polish',
-    CVeng: 'English',
+    CVpl: 'Polish Version',
+    CVeng: 'English Version',
   },
   pl: {
     name: 'Milena Tarkowska',
