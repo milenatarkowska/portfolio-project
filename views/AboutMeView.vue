@@ -3,16 +3,16 @@
     ref="aboutMeRef"
     class="AboutMe h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory"
   >
-    <section class="h-screen snap-start border-b border-transparent scroll-mt-40">
+    <section class="h-screen snap-start border-b border-transparent">
       <Info />
     </section>
-    <section class="h-screen snap-start border-b border-transparent scroll-mt-40">
+    <section class="h-screen snap-start border-b border-transparent">
       <Technologies />
     </section>
-    <section class="h-screen snap-start border-b border-transparent scroll-mt-40">
+    <section class="h-screen snap-start border-b border-transparent">
       <Education />
     </section>
-    <section class="h-screen snap-start scroll-mt-40">
+    <section class="h-screen snap-start">
       <Experience />
     </section>
   </div>

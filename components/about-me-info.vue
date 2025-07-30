@@ -27,6 +27,7 @@
   padding: 3rem;
   gap: 4rem;
   flex-wrap: wrap;
+  line-height: 0.8;
 }
 
 .left-title {
