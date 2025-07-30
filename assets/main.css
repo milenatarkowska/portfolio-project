@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+body {
+  overflow: hidden;
+}
 html{
   --text: #000000;
   --background: #e4e2e4;
