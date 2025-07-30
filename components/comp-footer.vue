@@ -8,6 +8,9 @@
 
 <style scoped>
 .footer {
+  position: absolute;
+  bottom: 0;
+  height: 2rem;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;

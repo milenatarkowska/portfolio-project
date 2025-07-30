@@ -3,6 +3,7 @@
 
 body {
   overflow: hidden;
+  scroll-behavior: smooth;
 }
 html{
   --text: #000000;
