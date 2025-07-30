@@ -8,14 +8,14 @@
 
 <style scoped>
 .footer {
-  position: absolute;
+  position: sticky;
   bottom: 0;
   height: 2rem;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
   align-items: center;
-  margin: 0.5rem;
+  padding: 1rem;
 }
 
 .footer-link{

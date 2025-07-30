@@ -24,8 +24,8 @@
   align-items: center;
   justify-content: space-between;
   min-height: 80vh;
-  padding: 3rem;
-  gap: 4rem;
+  padding: 2rem;
+  gap: 2rem;
   flex-wrap: wrap;
   line-height: 0.8;
 }
