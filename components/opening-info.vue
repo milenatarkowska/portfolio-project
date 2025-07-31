@@ -27,6 +27,7 @@ const { t } = useI18n()
   justify-content: space-between;
   align-items: center;
   flex: 1;
-  margin: 2rem;
+  padding: 2rem;
 }
+
 </style>
