@@ -5,4 +5,3 @@
 <script setup>
 import OpeningInfo from '@/components/opening-info.vue'
 </script>
-

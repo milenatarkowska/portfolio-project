@@ -38,4 +38,11 @@ function download(fileName) {
   justify-content: center;
   align-items: center;
 }
+.btn-xl{
+  background-color: var(--secondary);
+  border: var(--secondary);
+}
+.btn-xl:hover{
+  background-color: var(--accent);
+}
 </style>
