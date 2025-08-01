@@ -27,13 +27,13 @@ function download(fileName) {
   align-items: center;
   justify-content: center;
   flex-grow: 1;
-  gap: 2rem; /* odstęp między sekcjami */
+  gap: 2rem;
   text-align: center;
 }
 
 .buttons {
   display: flex;
-  gap: 1.5rem; /* odstęp między przyciskami */
+  gap: 1.5rem;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
