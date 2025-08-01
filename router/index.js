@@ -8,7 +8,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'hero',
+      name: 'home',
       component: HeroPageView,
     },
     {
