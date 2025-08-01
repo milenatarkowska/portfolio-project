@@ -4,7 +4,9 @@
       <div ref="tagCloud" class="tag-cloud"></div>
     </section>
     <section class="right-title">
-      <h1><b>{{t('technologies')}}</b></h1>
+      <h1>
+        <b>{{ t('technologies') }}</b>
+      </h1>
     </section>
   </div>
 </template>
@@ -35,7 +37,6 @@
 .tag-cloud {
   width: 400px;
   height: 400px;
-
 }
 
 @media (max-width: 768px) {
@@ -84,12 +85,22 @@
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 
-
 import { onMounted, ref } from 'vue'
-import TagCloud from 'tagcloud'
+import TagCloud from 'TagCloud'
 
 const tagCloud = ref(null)
-const texts = ['Java', 'Python', 'JavaScript', 'C++', 'HTML', 'CSS', 'Linux', 'GitHub', 'Vue', 'Docker']
+const texts = [
+  'Java',
+  'Python',
+  'JavaScript',
+  'C++',
+  'HTML',
+  'CSS',
+  'Linux',
+  'GitHub',
+  'Vue',
+  'Docker',
+]
 
 onMounted(() => {
   TagCloud(tagCloud.value, texts, {
@@ -97,7 +108,7 @@ onMounted(() => {
     maxSpeed: 'normal',
     initSpeed: 'normal',
     direction: 135,
-    keep: true
+    keep: true,
   })
 })
 </script>

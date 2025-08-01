@@ -1,15 +1,19 @@
 <template>
   <div class="opening-info">
     <div class="left-side">
-      <h1><b>{{ t('name') }}</b></h1>
+      <h1>
+        <b>{{ t('name') }}</b>
+      </h1>
       <h3>{{ t('title') }}</h3>
-      <p>{{ t('paragraph') }} <b>{{ t('academy') }}</b></p>
+      <p>
+        {{ t('paragraph') }} <b>{{ t('academy') }}</b>
+      </p>
     </div>
     <div class="right-side">
       <p><i class="fas fa-map-marker-alt"></i> {{ t('location') }}</p>
       <p>
         <i class="fas fa-envelope"></i>
-        <a :href="'mailto:' + t('email')"> {{ t('email') }}</a>
+        <a href="mailto:milenatarkowska1@gmail.com"> milenatarkowska1@gmail.com</a>
       </p>
     </div>
   </div>
@@ -21,7 +25,7 @@ const { t } = useI18n()
 </script>
 
 <style scoped>
-.opening-info{
+.opening-info {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -29,5 +33,4 @@ const { t } = useI18n()
   flex: 1;
   padding: 2rem;
 }
-
 </style>
