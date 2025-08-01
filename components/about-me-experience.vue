@@ -62,7 +62,7 @@ const { t } = useI18n()
     }
 
     .right-title {
-      order: -1; /* Tytuł idzie na górę */
+      order: -1;
       margin-left: 0;
       margin-bottom: 1.5rem;
       text-align: center;
