@@ -13,7 +13,7 @@
       <p><i class="fas fa-map-marker-alt"></i> {{ t('location') }}</p>
       <p>
         <i class="fas fa-envelope"></i>
-        <a href="mailto:milenatarkowska1@gmail.com"> milenatarkowska1@gmail.com</a>
+        <a href="mailto:contactme@mtarkowska.dev"> contactme@mtarkowska.dev</a>
       </p>
     </div>
   </div>
