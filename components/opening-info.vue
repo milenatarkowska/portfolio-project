@@ -33,4 +33,19 @@ const { t } = useI18n()
   flex: 1;
   padding: 2rem;
 }
+
+@media screen and (max-width: 414px) {
+  .opening-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  .right-side {
+    align-self: flex-start;
+  }
+}
 </style>
