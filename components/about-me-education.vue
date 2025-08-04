@@ -26,9 +26,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  min-height: 90vh;
-  padding: 3rem;
-  gap: 4rem;
+  min-height: 80vh;
+  padding: 2rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 
