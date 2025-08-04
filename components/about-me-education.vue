@@ -28,7 +28,7 @@
   justify-content: space-between;
   min-height: calc(100vh - 160px);
   padding: 2rem;
-  gap: 1rem;
+  gap: 2rem;
   flex-wrap: wrap;
   margin: 0 auto;
 }
