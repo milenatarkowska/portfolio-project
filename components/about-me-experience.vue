@@ -23,56 +23,92 @@
   </div>
 </template>
 
-<script setup>
-import { useI18n } from 'vue-i18n'
-const { t } = useI18n()
-</script>
-
 <style scoped>
 .about-me-experience {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  min-height: 80vh;
+  min-height: calc(100vh - 160px);
   padding: 2rem;
   gap: 2rem;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .left-info {
   flex: 1;
   text-align: left;
-  margin-left: 3rem;
+  min-width: 300px;
 }
 
 .right-title {
-  flex: 2;
+  flex: 1;
   text-align: center;
-  line-height: 1.7;
-  margin-left: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+  .about-me-experience {
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .right-title h1 {
+    font-size: 2.2rem;
+  }
+
+  .MHP h3 {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 768px) {
-  @media (max-width: 768px) {
-    .about-me-experience {
-      flex-direction: column;
-      align-items: stretch;
-      padding: 2rem;
-    }
+  .about-me-experience {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    min-height: calc(100vh - 140px);
+    gap: 2rem;
+  }
 
-    .right-title {
-      order: -1;
-      margin-left: 0;
-      margin-bottom: 1.5rem;
-      text-align: center;
-    }
+  .right-title {
+    width: 100%;
+  }
 
-    .left-info {
-      order: 0;
-      margin-left: 0;
-      text-align: center;
-    }
+  .right-title h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .left-info {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-me-experience {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .right-title h1 {
+    font-size: 1.8rem;
+  }
+
+  .MHP h3 {
+    font-size: 1.2rem;
+  }
+
+  .MHP p, .MHP-description p {
+    font-size: 0.95rem;
   }
 }
 </style>
+
+<script setup>
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
+</script>

@@ -21,44 +21,94 @@
 </template>
 
 <style scoped>
-.education{
+.education {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  min-height: 80vh;
+  min-height: calc(100vh - 160px);
   padding: 2rem;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .left-title {
   flex: 1;
   text-align: center;
+  min-width: 250px;
+}
+.right-education {
+  flex: 1;
+  text-align: left;
+  line-height: 1.6;
+  min-width: 300px;
 }
 
-.right-education {
-  flex: 2;
-  text-align: left;
-  line-height: 1.7;
+@media (max-width: 1024px) {
+  .education {
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .left-title h1 {
+    font-size: 2.2rem;
+  }
+
+  .main-info h3 {
+    font-size: 1.3rem;
+  }
+
+  .main-info h5 {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 768px) {
   .education {
     flex-direction: column;
-    align-items: stretch;
-    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    min-height: calc(100vh - 140px);
+    gap: 2rem;
   }
 
   .left-title {
     order: -1;
-    margin-bottom: 1.5rem;
-    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .left-title h1 {
+    font-size: 2rem;
   }
 
   .right-education {
-    order: 0;
+    width: 100%;
     text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .education {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .left-title h1 {
+    font-size: 1.8rem;
+  }
+
+  .main-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .main-info h5 {
+    font-size: 0.95rem;
+  }
+
+  .place-and-time p {
+    font-size: 0.95rem;
   }
 }
 </style>

@@ -17,66 +17,97 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  min-height: 80vh;
+  min-height: calc(100vh - 160px);
   padding: 2rem;
   gap: 2rem;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .left-technologies {
   flex: 1;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
 }
 
 .right-title {
-  flex: 2;
+  flex: 1;
   text-align: center;
-  line-height: 1.7;
-  margin-left: 3rem;
+  line-height: 1.5;
 }
 .tag-cloud {
-  width: 400px;
-  height: 400px;
+  width: 420px;
+  height: 420px;
+  position: relative;
+}
+
+.tag-cloud > * {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1024px) {
+  .technologies {
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .right-title h1 {
+    font-size: 2.2rem;
+  }
+
+  .tag-cloud {
+    width: 350px;
+    height: 350px;
+  }
 }
 
 @media (max-width: 768px) {
   .technologies {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 1.5rem;
+    min-height: calc(100vh - 140px);
     gap: 2rem;
   }
 
   .right-title {
-    order: -1;
-    margin: 0;
     width: 100%;
-    text-align: center;
+  }
+
+  .right-title h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
   .left-technologies {
-    order: 1;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+  }
+
+  .tag-cloud {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .technologies {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .right-title h1 {
+    font-size: 1.8rem;
   }
 
   .tag-cloud {
     width: 280px;
     height: 280px;
-    position: relative;
-    transform: translateX(0);
-  }
-
-  .tag-cloud > * {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
   }
 }
 </style>
@@ -103,8 +134,11 @@ const texts = [
 ]
 
 onMounted(() => {
+  const isMobile = window.innerWidth <= 768
+  const radius = isMobile ? 150 : 250
+
   TagCloud(tagCloud.value, texts, {
-    radius: 250,
+    radius: radius,
     maxSpeed: 'normal',
     initSpeed: 'normal',
     direction: 135,
