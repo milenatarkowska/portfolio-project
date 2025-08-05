@@ -73,13 +73,12 @@
     justify-content: center;
     padding: 1.5rem;
     min-height: calc(100vh - 140px);
-    gap: 2rem;
   }
 
   .right-title {
     width: 100%;
-    margin-top: 7rem;
-    margin-bottom: -7rem;
+    margin-top: 9rem;
+    margin-bottom: -9rem;
     align-self: center;
   }
 

@@ -76,7 +76,7 @@
   .left-title {
     order: -1;
     margin-top: 10rem;
-    margin-bottom: -6rem;
+    margin-bottom: -9rem;
   }
 
   .left-title h1 {

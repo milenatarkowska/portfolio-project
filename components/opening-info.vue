@@ -41,10 +41,9 @@ const { t } = useI18n()
     align-items: flex-start;
     justify-content: center;
     align-content: center;
-    padding: 1.5rem;
+    padding: 1rem;
     min-height: calc(100vh - 140px);
-    gap: 2rem;
-    margin-top: 2rem;
+    gap: 1rem;
   }
 }
 
@@ -56,6 +55,7 @@ const { t } = useI18n()
     align-items: center;
     gap: 1rem;
     padding: 1rem;
+    min-height: calc(100vh - 140px);
     margin: 0 auto;
   }
   .right-side {
