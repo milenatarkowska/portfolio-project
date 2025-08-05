@@ -78,15 +78,19 @@
 
   .right-title {
     width: 100%;
+    margin-top: 7rem;
+    margin-bottom: -7rem;
+    align-self: center;
   }
 
   .right-title h1 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
   .left-technologies {
     width: 100%;
+    margin-top: -7rem;
   }
 
   .tag-cloud {

@@ -71,7 +71,8 @@
 
   .left-title {
     order: -1;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
   }
 
   .left-title h1 {
@@ -81,6 +82,7 @@
   .right-info {
     text-align: center;
     width: 100%;
+    margin-top: -2rem;
   }
 
   .right-info p {

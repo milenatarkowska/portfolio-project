@@ -69,14 +69,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem;
+    padding: 1rem;
     min-height: calc(100vh - 140px);
-    gap: 2rem;
   }
 
   .left-title {
     order: -1;
-    margin-bottom: 1rem;
+    margin-top: 10rem;
+    margin-bottom: -6rem;
   }
 
   .left-title h1 {
@@ -86,6 +86,7 @@
   .right-education {
     width: 100%;
     text-align: center;
+    margin-top: -6rem;
   }
 }
 

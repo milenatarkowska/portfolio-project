@@ -75,16 +75,19 @@
 
   .right-title {
     width: 100%;
+    margin-top: 4rem;
+    margin-bottom: -4rem;
   }
 
   .right-title h1 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
   .left-info {
     width: 100%;
     text-align: center;
+    margin-top: -4rem;
   }
 }
 
@@ -92,10 +95,13 @@
   .about-me-experience {
     padding: 1rem;
     gap: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: -4rem;
   }
 
   .right-title h1 {
     font-size: 1.8rem;
+    margin-bottom: 0;
   }
 
   .MHP h3 {

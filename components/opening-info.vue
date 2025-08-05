@@ -30,8 +30,22 @@ const { t } = useI18n()
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  min-height: calc(100vh - 160px);
   flex: 1;
   padding: 2rem;
+}
+
+@media screen and (max-width: 768px){
+  .opening-info{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    padding: 1.5rem;
+    min-height: calc(100vh - 140px);
+    gap: 2rem;
+    margin-top: 2rem;
+  }
 }
 
 @media screen and (max-width: 414px) {
